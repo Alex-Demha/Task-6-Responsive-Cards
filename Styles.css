@@ -105,13 +105,13 @@ body{
 }
 
 .card-button:hover{
-    background-color: #260761dc;
+    background-color: #0d1a3a;
     color: white;
     cursor: pointer;
 }
 
 .card-button:focus{
-    box-shadow: 0 0 4px 3px #180a4bb2
+    box-shadow: 0 0 4px 3px #260d3a;
 }
 
 @media (min-width: 720px){
