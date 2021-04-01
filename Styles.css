@@ -1,6 +1,7 @@
 html{
     box-sizing: border-box;
-    font-family:Arial, Helvetica, sans-serif ;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 62.5%;
 }
 
 body{
@@ -52,7 +53,7 @@ body{
 .card-info{
     text-align: right;
     margin-top: 30px;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: #888;
     text-transform: uppercase;
 }
@@ -74,7 +75,7 @@ body{
 
 .card-title{
     color: #222;
-    font-size: 24px;
+    font-size: 2.4rem;
     margin: 44px 0 0 10px;
 }
 
@@ -84,7 +85,7 @@ body{
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
-    font-size: 14px;
+    font-size: 1.4rem;
     color: #555;
     margin: 2px 0 0 10px;
 }
@@ -95,20 +96,22 @@ body{
     left: 6px;
     outline: none;
     border: none;
-    font-size: 12px;
+    font-size: 1.2rem;
     background-color: #ddd;
     height: 30px;
     padding: 0 12px;
     border-radius: 2px;
+    transition: background-color .2s, box-shadow .2s, color .2s;
 }
 
 .card-button:hover{
-    filter: brightness(90%);
+    background-color: #260761dc;
+    color: white;
     cursor: pointer;
 }
 
 .card-button:focus{
-    filter:brightness(80%);
+    box-shadow: 0 0 4px 3px #180a4bb2
 }
 
 @media (min-width: 720px){
