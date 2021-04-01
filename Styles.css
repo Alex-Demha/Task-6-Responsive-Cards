@@ -97,7 +97,8 @@ body{
     outline: none;
     border: none;
     font-size: 1.2rem;
-    background-color: #ddd;
+    background-color: #d8d7df;
+    color: #0d1a3a;
     height: 30px;
     padding: 0 12px;
     border-radius: 2px;
