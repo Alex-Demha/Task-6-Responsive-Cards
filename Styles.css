@@ -90,15 +90,16 @@ body{
 }
 
 .card-button{
-    position: absolute;
-    bottom: 14px;
+    position: relative;
+    margin-top: 12px;
+    left: 6px;
     outline: none;
     border: none;
     font-size: 12px;
     background-color: #ddd;
     height: 30px;
     padding: 0 12px;
-    border-radius: 6px;
+    border-radius: 2px;
 }
 
 .card-button:hover{
