@@ -52,13 +52,17 @@ body{
 }
 
 .card-img:hover{
-    animation: pulse .8s infinite;
+    animation: pulse 1.5s infinite .2s;
     transform: scale(1.1);
 }
 
 @keyframes pulse{
     0%{
         box-shadow: 0 0 0 0 darkgreen;
+    }
+
+    60%{
+        box-shadow: 0 0 2px 14px rgba(0, 100, 0, 0);
     }
 
     100%{
