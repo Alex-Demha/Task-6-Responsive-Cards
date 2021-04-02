@@ -22,7 +22,7 @@ body{
     height: 180px;
     border-radius: 4px;
     background-color: #fff;
-    box-shadow: 0px 0px 5px 2px #ccc;
+    box-shadow: 0px 0px 3px 1px #16c00048;
     transition: transform .3s ease-out;
 }
 
