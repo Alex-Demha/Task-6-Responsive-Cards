@@ -86,7 +86,7 @@ body{
     content: ' ';
     width: 100%;
     height: 2px;
-    background-color: darkgreen;
+    background-color: #019150;
 }
 
 .card-title{
@@ -113,7 +113,7 @@ body{
     outline: none;
     border: none;
     font-size: 1.2rem;
-    background-color: darkgreen;
+    background-color: #007741;
     color: white;
     height: 30px;
     padding: 0 12px;
@@ -122,7 +122,7 @@ body{
 }
 
 .card-button:hover{
-    background-color: #014601;
+    background-color: #015831;
     cursor: pointer;
 }
 
